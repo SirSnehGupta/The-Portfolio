@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>Sneh's Component Library</h1>
-    <p>Various components of HTML are listed here.</p>
+    <p>Various components of HTML are listed <b>here</b>.</p>
     
     <hr>
     
@@ -26,33 +26,33 @@
     
     <h1><em>Containers</em></h1>
     <h2>Fluid container</h2>
-    <div>This is a fluid container, will go till the end of the page</div>
+    <div class='container'>This is a fluid container, will go till the end of the page</div>
     <h2>Centered container</h2>
-    <div>This is a centered container, will go till the specified width</div>
+    <div class='center-container'>This is a centered container, will go till the specified width</div>
     
     <hr>
     
     <h1><em>Links</em></h1>
-    <a href='https://github.com/sirsnehgupta'>GitHub</a>
-    <a href='https://instagram.com/sir_sneh_gupta'>Instagram</a>
+    <a class='link primary-link' href='https://github.com/sirsnehgupta' target="_blank">GitHub</a>
+    <a class = 'link secondary-link' href='https://instagram.com/sir_sneh_gupta' target="_blank">Instagram</a>
 
     <hr>
 
     <h1><em>Lists</em></h1>
     <p><b>Unordered List</b></p>
-    <ul>
+    <ul class = 'non-bullet'>
         <li>Item 1</li>
         <li>Item 2</li>
         <li>Item 3</li>
     </ul>
     <p><b>Unordered inline list</b></p>
-    <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
+    <ul class = 'non-bullet'>
+        <li class = 'list-inline'>Item 1</li>
+        <li class = 'list-inline'>Item 2</li>
+        <li class = 'list-inline'>Item 3</li>
     </ul>
     <p><b>Reversed ordered list</b></p>
-    <ol>
+    <ol reversed>
         <li>Item 1</li>
         <li>Item 2</li>
         <li>Item 3</li>
@@ -61,48 +61,57 @@
     <hr>
 
     <h1><em>Navigation</em></h1>
-    <nav>
-        <div>I am Sneh</div>
-        <ul>
-            <li>
-                <a href='/'>Home</a>
+    <nav class="navigation container">
+        <div class="nav-name">I am Sneh</div>
+        <ul class = 'non-bullet nav-pills'>
+            <li class="list-inline">
+                <a class="link link-active" href='/complib.html'>Home</a>
             </li>
-            <li>
-                <a href="/">Products</a>
+            <li class="list-inline">
+                <a class="link" href="/">Products</a>
             </li>
-            <li>
-                <a href="/">About</a>
+            <li class="list-inline">
+                <a class="link" href="/">About</a>
             </li>
         </ul>
     </nav>
 
     <hr>
 
-    <header>
-        <img src="images/Main_img.svg" length = '512' width = '512'>
-        <h4>In Header</h4>
+    <header class='hero'>
+        <img class="hero-img" src="images/Main_img.svg" length = '512' width = '512'>
+        <h1 class = 'hero-heading'>Sneh Gupta the <span class='header-dev'> Web Developer</span></h1>
     </header>
 
     <hr>
     
     <h1><em>Sections</em></h1>
-    <section>
-        <h3>White section</h3>
-        <p> White background</p>
+    <section class="section">
+        <div class="center-container">
+            <h3>White section</h3>
+            <p> White background</p>
+        </div>
+        
     </section>
-    <section>
-        <h3>Off-White section</h3>
-        <p>Grey background</p>
+    <section class="ow section">
+        <div class="center-container">
+            <h3>Off-White section</h3>
+            <p>Grey background</p>
+        </div>
+        
     </section>
     
     <hr>
     <h1><em>Footer</em></h1>
-    <div>'Lil heading here</div>
-    <ul>
-        <li>one</li>
-        <li>two</li>
-        <li>three</li>
-    </ul>
+    <footer class="footer">
+        <div>'Lil heading here</div>
+        <ul class='socials non-bullet'>
+            <li class="list-inline"><a class = 'link' href='/'>one</a></a></li>
+            <li class="list-inline"><a class = 'link' href="/">two</a></li>
+            <li class="list-inline"><a class = 'link' href="/">three</a></li>
+        </ul>
+    </footer>
+    
 
 
 

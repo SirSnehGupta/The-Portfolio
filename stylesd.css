@@ -24,7 +24,7 @@ hr{
 }
 
 .center-container{
-    max-width: 500px;
+    max-width: 750px;
     margin: auto;
     color:whitesmoke;
 }
@@ -45,7 +45,7 @@ hr{
 .secondary-link{
     border-radius: 1rem;
     border: 1px solid var(--pri-col);
-    border-width: px;
+    border-width: 1px;
     color: var(--pri-col); 
 }
 
@@ -72,10 +72,11 @@ hr{
 .navigation .nav-name{
     font-weight: bold;
     font-size: 112.5%;
+    text-align: right;
 }
 
 .navigation .nav-pills{
-    text-align: right;
+    text-align: left;
 }
 
 .navigation .link{
@@ -87,6 +88,9 @@ hr{
     font-weight: bold;
 }
 
+.navigation ul{
+    padding-inline-start: 0px;
+}
 /* header */
 
 .hero{

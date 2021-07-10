@@ -31,7 +31,7 @@ hr{
 
 .link{
     text-decoration: none;
-    padding: 0rem 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .primary-link{
@@ -134,6 +134,9 @@ hr{
     color: white;
 }
 
+.footer .footer-header{
+    font-weight: bold;
+}
 .footer ul{
     padding-inline-start: 0px ;
 }

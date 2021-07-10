@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 :root{
-    --pri-col: #0286c4;
-    --gray: #303030;
+    --pri-col: #0086f1;
     --off-white: #dbdbdb;
+    --bgcolor: #303030;
 }
 
 body{
     font-family: 'Raleway', sans-serif;
     margin: 2px;
+    background-color: var(--bgcolor)
 }
 
 hr{
@@ -25,6 +26,7 @@ hr{
 .center-container{
     max-width: 500px;
     margin: auto;
+    color:whitesmoke;
 }
 
 /** links **/
@@ -98,7 +100,7 @@ hr{
 }
 
 .hero .hero-heading{
-    color: var(--gray);
+    color: whitesmoke;
     text-align: center;
 }
 
@@ -117,7 +119,7 @@ hr{
 }
 
 .off-bg{
-     background-color: var(--off-white);
+    background-color: #505050;
  }
 
  /* footer */
@@ -140,8 +142,11 @@ hr{
 .footer ul{
     padding-inline-start: 0px ;
 }
-/* Responsiveness*/
+/* Misc*/
 .responsive{
     max-width: 100%;
     height: auto;
+}
+p{
+    color: whitesmoke;
 }

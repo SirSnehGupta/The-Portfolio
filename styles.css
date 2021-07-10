@@ -2,8 +2,8 @@
 
 :root{
     --pri-col: #0286c4;
-    --gray: rgb(48, 48, 48);
-    --off-white: #b3b3b3;
+    --gray: #303030;
+    --off-white: #dbdbdb;
 }
 
 body{

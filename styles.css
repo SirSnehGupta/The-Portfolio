@@ -60,6 +60,10 @@ hr{
 
 /* navigation */
 
+.theme-selector{
+    text-align: right;
+}
+
 .navigation{
     background-color: var(--pri-col);
     color: white;
@@ -92,9 +96,10 @@ hr{
 }
 
 .hero .hero-img{
-    max-width: 350 px;
+    max-width: 350px;
     display: block;
     margin: auto;
+    border-radius: 250px;
 }
 
 .hero .hero-heading{

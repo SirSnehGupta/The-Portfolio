@@ -127,6 +127,7 @@ hr{
 }
 
 .off-bg{
+
     background-color: #505050;
  }
 
@@ -134,7 +135,7 @@ hr{
 
  .footer{
     background-color: var(--pri-col);
-    padding: 2rem 1rem;
+    padding: 2rem 0rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
